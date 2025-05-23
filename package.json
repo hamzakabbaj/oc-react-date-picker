@@ -1,6 +1,6 @@
 {
   "name": "oc-react-date-picker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A customizable and modern date picker component for React applications.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",

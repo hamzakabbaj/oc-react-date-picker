@@ -1,0 +1,48 @@
+{
+  "name": "oc-react-date-picker",
+  "version": "1.0.0",
+  "description": "A customizable and modern date picker component for React applications.",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "datepicker",
+    "date-picker",
+    "calendar"
+  ],
+  "author": "Hamza Kabbaj",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamzakabbaj/oc-react-date-picker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hamzakabbaj/oc-react-date-picker/issues"
+  },
+  "homepage": "https://github.com/hamzakabbaj/oc-react-date-picker#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.1",
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-react": "^7.27.1",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "postcss": "^8.5.3",
+    "rollup": "^2.79.1",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-scss": "^4.0.0",
+    "sass": "^1.69.0"
+  }
+}

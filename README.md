@@ -5,16 +5,16 @@ A customizable and modern date picker component for React applications.
 ## Installation
 
 ```bash
-npm install react-datepicker-component
+npm install oc-react-date-picker
 # or
-yarn add react-datepicker-component
+yarn add oc-react-date-picker
 ```
 
 ## Usage
 
 ```jsx
 import React from "react";
-import DatePicker from "react-datepicker-component";
+import DatePicker from "oc-react-date-picker";
 
 function App() {
   const [date, setDate] = React.useState(null);
